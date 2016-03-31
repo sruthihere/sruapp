@@ -1,0 +1,34 @@
+	
+		<div class="colorslist">	
+			<section class="layout">
+
+				<div class="colors">
+
+					<% allphotographers.forEach(function(item){ %>
+
+					<article class="color group">
+						<h3><%= item.title %> <span class="small">with  photographer <a href="/photographers/<%= item.shortname %>"><%= item.name %></a></span></h3>
+						<% if(page === 'photographerDetail'){ %>
+								<p><a href="<%= item.shortname %>"><img class = "colorpic" src="/images/photographers/<%= item.shortname %>_tn.jpg" alt="<%= item.name%>"></a>
+						<% }else{ %>
+								<p><a href="photographers/<%= item.shortname %>"><img class = "colorpic" src="/images/photographers/<%= item.shortname %>_tn.jpg" alt="<%= item.name%>"></a>
+						<% } %>
+
+						<% if(page != 'home'){ %>
+							<% if(page === 'photographerList'){ %>
+								<%- item.summary %>
+							<% }else{ %>
+								<%- item.description %>
+							<% } %>
+						<% } %>
+
+						</p>
+					</article>	
+
+	
+					<%	}); %>	
+
+				</div>
+
+			</section>
+		</div>	

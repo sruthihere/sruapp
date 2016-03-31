@@ -1,0 +1,12 @@
+			<article id="allpictures">
+				<h1>All the Pictures</h1>
+				<p>Do checkout the pictures below:</p>
+				<div class="pixgrid">
+					<% if(allpics.length > 0) %>
+					<%{%>
+						<% for( i=0;i<allpics.length;i++ ){ %>
+							<img src="/images/items/<%= allpics[i] %>" alt="Artwork <%= allpics[i] %>">
+					<%}}%>
+				
+				</div>	
+			</article>	

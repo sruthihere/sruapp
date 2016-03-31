@@ -1,0 +1,6 @@
+<article id="bestpic">
+	<h1>Best picture of the year</h1>
+	<img src="<%= appdata.meeting.where.img %>" class="bestImage" alt="Best pic of 2015">
+	<p>Best picture of the year is awarded to Anna. The award will be presented on <%= appdata.meeting.date %> at <%= appdata.meeting.time %>. The venue will be at <%= appdata.meeting.where.name %> and its address is : <%= appdata.meeting.where.address %> </p>
+	<p><% include socialmedia.ejs %>	</p>
+</article>		

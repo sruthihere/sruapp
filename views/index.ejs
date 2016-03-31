@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body class= "<%=page %>">
+  	<% include partials/template/header.ejs %>
+    <% include partials/content/photographerslist.ejs %>  
+  	  <section class="layout">
+    	 <div class="primary">
+         <% include partials/content/sectionone.ejs %>  
+         <% include partials/content/sectiontwo.ejs %>  
+         <% include partials/content/sectionthree.ejs %>  
+		   </div>
+		  <aside class="secondary">	
+         <% include partials/content/bestpic.ejs %> 
+			   <% include partials/content/allthepics.ejs %>	
+		  </aside>	
+	</section>	
+    <% include partials/template/footer.ejs %>
+    <% include partials/template/jsdefaults.ejs %>
+  </body>
+</html>

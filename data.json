@@ -1,0 +1,53 @@
+{
+  "speakers": [{
+    "title" : "Color One",
+    "name": "Green Color",
+    "shortname" : "Green_Color",
+    "summary" : "This is a summary about Color one. Its the green color.",
+    "description": "<p>This is the color of balance and harmony. From a color psychology perspective, it is the great balancer of the heart and the emotions, creating equilibrium between the head and the heart.From a meaning of colors perspective, green is also the color of growth, the color of spring, of renewal and rebirth. It renews and restores depleted energy. It is the sanctuary away from the stresses of modern living, restoring us back to a sense of well being. This is why there is so much of this relaxing color on the earth, and why we need to keep it that way.</p>",
+    "artwork": ["Green_Color_01_tn.jpg", "Green_Color_02_tn.jpg", "Green_Color_03_tn.jpg", "Green_Color_04_tn.jpg"]
+  },{
+    "title" : "Color Two",
+    "name": "Peach color",
+    "shortname" : "Peach_Color",
+    "summary": "This is a summary about Color two. Its the peach color.",
+    "description": "<p>Peach is a color that is named for the pale color of the exterior flesh of the peach fruit. Like the color apricot, the color called peach is paler than most actual peach fruits and seems to have been formulated (like the color apricot) primarily to create a pastel palette of colors for interior design.</p>",    
+    "artwork" : ["Peach_Color_01_tn.jpg" , "Peach_Color_02_tn.jpg"]
+  },{
+    "title" : "Color Three",
+    "name": "Yellow Color",
+    "shortname" : "Yellow_Color",
+    "summary": "This is a summary about Color three. Its the yellow color.",
+    "description": "<p>This color relates to acquired knowledge. It is the color which resonates with the left or logic side of the brain stimulating our mental faculties and creating mental agility and perception.Being the lightest hue of the spectrum, the color psychology of yellow is uplifting and illuminating, offering hope, happiness, cheerfulness and fun. In the meaning of colors, yellow inspires original thought and inquisitiveness.</p>",
+    "artwork" : ["Yellow_Color_01_tn.jpg","Yellow_Color_02_tn.jpg","Yellow_Color_03_tn.jpg"]
+  }],
+
+  "social" : [{
+    "shortname" : "twitter",
+    "img" : "/images/socialmedia/twitter.png",
+    "url" : "http://www.twitter.com/photography"
+  },{
+    "shortname" : "facebook",
+    "img" : "/images/socialmedia/facebook.png",
+    "url" : "http://www.facebook.com/photography"
+  },{
+    "shortname" : "meetup",
+    "img" : "/images/socialmedia/meetup.png",
+    "url" : "http://www.meetup.com/photography/"
+  }],
+
+  "meeting" : {
+    "date": "Thursday, March 27th",
+    "time": "6-9pm",
+    "where": {
+      "name": "Hotel Gwendoline",
+      "img": "/images/misc/sculpture.jpg",
+      "address": "123 Elm Street"
+    }
+  },
+
+  "contact" : {
+     "name" : "Anna Samuel",
+     "phone" : "564 789 6234"
+  }
+}
